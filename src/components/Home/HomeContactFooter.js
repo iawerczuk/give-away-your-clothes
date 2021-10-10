@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const HomeContactFooter = () => {
+import HomeContact from './HomeContact';
+import HomeFooter from './HomeFooter';
+
+const HomeContactFooter= () => {
     return (
-        <div>
-            kontaktFooter
+        <div className='contact-footer'>
+            <HomeContact/>
+            <HomeFooter/>
         </div>
     )
 }

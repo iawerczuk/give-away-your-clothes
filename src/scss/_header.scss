@@ -1,0 +1,38 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "utils";
+
+.header{
+    padding-top: 40px;
+    padding-right: 140px;
+    .header-main{
+        padding: 40px 100px;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        background-image: url(../assets/HeaderImage.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: -800px bottom;
+        .header-txt{
+            display: flex;
+            justify-content: space-around; 
+            flex-direction: column;    
+            padding-right: 150px;
+        .buttons{
+            display: flex;
+            justify-content: space-around;
+            button{
+                text-transform: uppercase;
+                font-size: 3.6rem;
+                color: $color5;
+                background-color: white;
+                padding: 30px 100px;
+            }
+        }
+        }
+    }
+}

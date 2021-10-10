@@ -1,0 +1,13 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "utils";
+
+.header-bg{
+    padding: 40px 100px;
+    min-height: 100vh;
+    background-image: url(../assets/HeaderImage.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -800px bottom;  
+} 

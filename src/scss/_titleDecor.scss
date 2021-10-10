@@ -1,0 +1,20 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.title{
+        font-size: 38px;
+        font-family: $font-base;
+        font-weight: 300;
+        color: $color2;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 70px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}

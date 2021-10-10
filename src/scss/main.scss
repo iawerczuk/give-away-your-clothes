@@ -1,0 +1,31 @@
+@import 'reset.scss';
+@import "utils";
+@import "header";
+@import 'headerBg';
+@import "headerActions";
+@import "headerNav";
+@import "threeColumns";
+@import "simpleSteps";
+@import "about";
+@import 'help';
+@import "contactFooter";
+@import "contact";
+@import "footer";
+@import 'titleDecor';
+@import 'login';
+@import 'logout';
+@import 'register';
+@import 'registerBtn';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+
+@import "settings/fonts";
+@import "settings/colors";
+
+body{
+    font-family: $font-base;
+    font-size: 10px;
+    width: 100vw;
+}

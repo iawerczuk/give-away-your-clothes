@@ -1,0 +1,34 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.home-footer{
+    width: 77%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    position: absolute;
+    padding: 20px 150px;
+    div{
+        display: flex;
+        justify-content: center;
+        p{
+            color: $color5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+            margin-top: 80px;
+        }
+    }
+    .socials{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            padding-right: 20px;
+        }
+    }
+}

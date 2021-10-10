@@ -1,0 +1,42 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .login{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $color1;
+        .form-inputs{
+            background-color: $color1;
+            label{
+                margin: 30px 0;
+                align-items: flex-start;
+                input{
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    border-bottom: 2px solid $color4;
+                }
+            }
+    }
+}
+}
+
+.give-away{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: $color5;
+    background-color: white;
+    padding: 30px 100px;
+}

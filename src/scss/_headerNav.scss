@@ -1,0 +1,22 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "utils";
+
+.header-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:20px;
+    a{
+        font-size:1.8rem;
+        cursor: pointer;
+        padding:10px 20px;
+        margin: 0 20px;
+        &:active {
+            border: 1px solid $color3;
+        }
+        &:hover {
+            color: $color3;
+        }
+    }
+}

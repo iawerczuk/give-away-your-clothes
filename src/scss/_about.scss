@@ -1,0 +1,29 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "utils";
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: $color1;
+    .about-title{
+        p{
+            padding: 100px;
+            font-size: 30px;
+            color: $color5;
+        }
+        .signature-div{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .people-img{
+        display: flex;
+        img{
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+@import "utils";
+
+.steps-container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+        .steps{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            background-color: $color1;
+            padding-bottom: 100px;
+            .step{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                
+                h3{
+                    display: flex;
+                    flex-direction: column;
+                    &::after {
+                        content: "";
+                        display: block;
+                        border: 1px solid #707070;
+                        width: 70px;
+                        margin: 30px auto;
+                }
+                img{
+                    width: 85px;
+                    height: 85px;
+                }
+            }
+        }
+     }
+    .give-away{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 36px;
+        color: $color5;
+        background-color: white;
+        padding: 30px 100px;
+    }
+}

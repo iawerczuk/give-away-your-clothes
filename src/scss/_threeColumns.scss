@@ -1,0 +1,33 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.three-columns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../assets/3ColumnsBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 50px;
+    .column{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+        padding: 50px 200px 80px;
+        h2{
+            font-size: 90px;
+        }
+        h3{
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        p{
+            line-height: 2rem;
+        }
+    }
+
+}

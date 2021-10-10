@@ -1,0 +1,13 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.title-logout{
+    padding-top: 50px;
+}
+.button-logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}

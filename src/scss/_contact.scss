@@ -1,0 +1,74 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.contact-container{
+   display: flex;
+   flex-direction: row;
+   z-index: 999;
+   position: relative;
+   margin-left: 12vw;
+   margin-top: -25vh;
+   .empty{
+      width: 50vw;
+      .contact-container{
+         display: flex;
+         justify-content: flex-start;
+      .contact-form{
+         display: flex;
+         flex-direction: row;
+         width: 30%;
+         margin-top: 50px;
+         .contact-data{
+            display: flex;
+            justify-content: space-between;
+            background-color: none;
+
+            label{
+               display: flex;
+               width: 50%;
+            }   
+            input{
+               outline: none;
+               border: transparent;
+               border-bottom: 2px solid $color5;
+               padding: 5px;
+            }
+         }
+         .contact-message{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            background-color: none;
+            label{
+               display: flex;
+               flex-direction: column;
+               width: 50%;
+            }   
+            textarea{
+               outline: none;
+               border: none;
+               border-bottom: 2px solid $color5;
+               padding: 5px;
+               width: 50%;
+               margin-top: 15px;
+               padding: 5px 0;
+               resize: none;
+            }
+         }
+      }
+   }
+}
+   .submit{
+      cursor: pointer;
+      font-size: 13px;
+      display: flex;
+      justify-content: flex-end;
+      border: 2px solid $color5; 
+      padding: 20px 40px;
+      margin-left: auto;
+         &:hover {
+            border: 2px solid $color3;
+         }
+   }
+}

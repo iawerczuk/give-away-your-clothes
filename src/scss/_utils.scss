@@ -1,0 +1,90 @@
+@import "settings/fonts";
+@import "settings/colors";
+
+.button{
+    cursor: pointer;
+    font-family: $font-base;
+    font-weight: 300;
+    font-size: 36px;
+    color: $color4;
+    background-color:$color1;
+    border:1px solid $color5;
+    margin: 20px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+h2{font-size: 38px;
+    font-family: $font-base;
+    font-weight: 300;
+    color: $color2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    font-family: $font-base;
+    color: $color5;
+    text-transform: uppercase;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 16px;
+    font-family: $font-alt;
+    font-weight: 300;
+    color: $color5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    letter-spacing: -0.32px;
+    margin-bottom: 60px;
+ }
+ a{
+     text-decoration: none;
+     &:active{
+         color: $color5;
+     }
+     &:visited{
+        color: $color5;
+    }
+  }
+
+  label{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      font-size: 16px;
+      input{
+        margin: 50px auto 50px;
+        padding: 20px;
+        background-color: #f0f1f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30vw;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid $color4;
+    }
+}
+
+textarea{
+    margin: 50px auto 50px;
+    padding: 20px;
+    background-color: #f0f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid $color4;
+}

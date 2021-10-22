@@ -10,9 +10,9 @@ const HomeContact = () => {
     const [sent, setSent] = useState(false);
 
     const validateName = name => {
-        const re= /^[a-zA-Z]+$/
-        console.log(re. test(String(name).toLocaleLowerCase()))
-        return name.lenght !==0 ? re.test(String(name).toLocaleLowerCase()) : false;
+        const re = /^[a-zA-Z]+$/
+        console.log(re.test(String(name).toLowerCase()))
+        return name.length !== 0 ? re.test(String(name).toLowerCase()) : false;
     }
 
     const validateEmail = email => {
@@ -32,14 +32,14 @@ const HomeContact = () => {
         const data = {
             name: name,
             email: email,
-            message: msg
+            msg: msg
         };
-
         if (validateName(name) && validateEmail(email) && validateMsg(msg)) {
-            fetch('https://fer-api.coderslab.pl/v1/portfolio/contact', {
-                method:'POST',
-                body:JSON.stringify(data),
-                headers:{ "Content-Type": "application/json"
+            fetch("https://fer-api.coderslab.pl/v1/portfolio/contact", {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    "Content-Type": "application/json"
                 }
             });
             setName("");

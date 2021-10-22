@@ -1,0 +1,44 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "utils";
+
+.help-main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    .help-container{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            margin: 50px;
+            h2{
+                font-size: 24px;
+            }
+       }
+    }
+    .fund-content{
+        display: flex;
+        justify-content: space-between;
+        .fundation{          
+         display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        h2{
+                font-size: 26px;
+                padding: 20px;
+            }
+            p{
+                padding: 20px;
+            }
+        }
+        .items{
+            justify-content: center;
+            align-items: center;
+                p{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
